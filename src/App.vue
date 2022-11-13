@@ -16,6 +16,7 @@ sayHi()
   </div>
   <HelloWorld msg="Vite + Vue" />
   <TestView></TestView>
+  <router-view />
 </template>
 
 <style scoped>
