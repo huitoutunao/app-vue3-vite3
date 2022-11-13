@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from '@/components/HelloWorld.vue'
+import TestView from '@/components/TestView.vue'
 import sayHi from '@/utils'
 sayHi()
 </script>
@@ -14,6 +15,7 @@ sayHi()
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
+  <TestView></TestView>
 </template>
 
 <style scoped>
