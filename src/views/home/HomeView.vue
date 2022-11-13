@@ -1,5 +1,5 @@
 <template>
-  <div @click="counter.increment()">
+  <div class="page" @click="counter.increment()">
     {{ countValue }}
   </div>
 </template>
