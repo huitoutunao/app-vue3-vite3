@@ -7,7 +7,8 @@
     "lint:js": "eslint --fix ./src/**/*.{vue,js,ts}",
     "format": "prettier --write .",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "husky install"
   },
   "dependencies": {
     "vue": "^3.2.41"
@@ -36,6 +37,6 @@
     }
   },
   "lint-staged": {
-    "*.{vue,js,ts}": "eslint --fix"
+    "./src/**/*.{vue,js,ts}": "eslint --fix"
   }
 }
