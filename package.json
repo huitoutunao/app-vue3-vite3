@@ -5,9 +5,9 @@
   "description": "app vue3 start",
   "scripts": {
     "dev": "vite --host",
-    "lint:js": "eslint --fix ./src/**/*.{vue,js,ts}",
+    "lint:js": "eslint --cache \"./src/**/*.{vue,js,ts}\" --fix",
     "format": "prettier --write .",
-    "test": "jest",
+    "test:unit": "jest",
     "build:production": "vue-tsc --noEmit && vite build --mode production",
     "build:uat": "vue-tsc --noEmit && vite build --mode uat",
     "preview": "vite preview"

@@ -1,3 +1,4 @@
 export default function sayHi() {
-  console.log('hello world')
+  const word = 'hello world'
+  console.log(word)
 }
