@@ -12,8 +12,11 @@ const counter = useCounterStore()
 const { countValue } = storeToRefs(counter)
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .page {
   position: relative;
+  display: flex;
+  width: 100px;
+  color: #333;
 }
 </style>
