@@ -17,6 +17,6 @@ const { countValue } = storeToRefs(counter)
   position: relative;
   display: flex;
   width: 100px;
-  color: #333;
+  color: #333333;
 }
 </style>

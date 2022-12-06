@@ -4048,7 +4048,7 @@ postcss-safe-parser@^6.0.0:
   resolved "https://registry.npmmirror.com/postcss-safe-parser/-/postcss-safe-parser-6.0.0.tgz#bb4c29894171a94bc5c996b9a30317ef402adaa1"
   integrity sha512-FARHN8pwH+WiS2OPCxJI8FuRJpTVnn6ZNFiqAM2aeW2LwTHWWmWgIyKC6cUo0L8aeKiF/14MNvnpls6R2PBeMQ==
 
-postcss-scss@^4.0.2, postcss-scss@^4.0.6:
+postcss-scss@^4.0.2:
   version "4.0.6"
   resolved "https://registry.npmmirror.com/postcss-scss/-/postcss-scss-4.0.6.tgz#5d62a574b950a6ae12f2aa89b60d63d9e4432bfd"
   integrity sha512-rLDPhJY4z/i4nVFZ27j9GqLxj1pwxE80eAzUNRMXtcpipFYIeowerzBgG3yJhMtObGEXidtIgbUpQ3eLDsf5OQ==
@@ -4071,7 +4071,7 @@ postcss-selector-parser@^6.0.9:
 
 postcss-sorting@^7.0.1:
   version "7.0.1"
-  resolved "https://registry.npmmirror.com/postcss-sorting/-/postcss-sorting-7.0.1.tgz#923b5268451cf2d93ebf8835e17a6537757049a5"
+  resolved "https://registry.yarnpkg.com/postcss-sorting/-/postcss-sorting-7.0.1.tgz#923b5268451cf2d93ebf8835e17a6537757049a5"
   integrity sha512-iLBFYz6VRYyLJEJsBJ8M3TCqNcckVzz4wFounSc5Oez35ogE/X+aoC5fFu103Ot7NyvjU3/xqIXn93Gp3kJk4g==
 
 postcss-value-parser@^4.1.0, postcss-value-parser@^4.2.0:
@@ -4637,7 +4637,7 @@ stylelint-config-prettier@^9.0.4:
 
 stylelint-config-recess-order@^3.0.0:
   version "3.0.0"
-  resolved "https://registry.npmmirror.com/stylelint-config-recess-order/-/stylelint-config-recess-order-3.0.0.tgz#f6f378179becd3e0842101cf652a30733aac25b1"
+  resolved "https://registry.yarnpkg.com/stylelint-config-recess-order/-/stylelint-config-recess-order-3.0.0.tgz#f6f378179becd3e0842101cf652a30733aac25b1"
   integrity sha512-uNXrlDz570Q7HJlrq8mNjgfO/xlKIh2hKVKEFMTG1/ih/6tDLcTbuvO1Zoo2dnQay990OAkWLDpTDOorB+hmBw==
   dependencies:
     stylelint-order "5.x"
@@ -4682,18 +4682,11 @@ stylelint-config-standard@^29.0.0:
 
 stylelint-order@5.x:
   version "5.0.0"
-  resolved "https://registry.npmmirror.com/stylelint-order/-/stylelint-order-5.0.0.tgz#abd20f6b85ac640774cbe40e70d3fe9c6fdf4400"
+  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-5.0.0.tgz#abd20f6b85ac640774cbe40e70d3fe9c6fdf4400"
   integrity sha512-OWQ7pmicXufDw5BlRqzdz3fkGKJPgLyDwD1rFY3AIEfIH/LQY38Vu/85v8/up0I+VPiuGRwbc2Hg3zLAsJaiyw==
   dependencies:
     postcss "^8.3.11"
     postcss-sorting "^7.0.1"
-
-stylelint-prettier@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmmirror.com/stylelint-prettier/-/stylelint-prettier-2.0.0.tgz#ead781aea522379f2ffa2d136bafdfc451d699a5"
-  integrity sha512-jvT3G+9lopkeB0ARmDPszyfaOnvnIF+30QCjZxyt7E6fynI1T9mOKgYDNb9bXX17M7PXMZaX3j/26wqakjp1tw==
-  dependencies:
-    prettier-linter-helpers "^1.0.0"
 
 stylelint-scss@^4.0.0:
   version "4.3.0"
