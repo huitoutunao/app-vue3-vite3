@@ -5,8 +5,8 @@
   "description": "app vue3 start",
   "scripts": {
     "dev": "vite --host",
-    "lint:js": "eslint --cache \"./src/**/*.{vue,js,ts}\" --fix",
-    "lint:css": "stylelint --cache --cache-location node_modules/.cache/stylelint/ \"./src/**/*.{vue,css,scss,sass}\" --fix",
+    "lint:js": "eslint --cache \"./src/**/*.{vue,js,ts,tsx}\" --fix",
+    "lint:css": "stylelint --cache --cache-location node_modules/.cache/stylelint/ \"./src/**/*.{vue,scss,sass,less,styl}\" --fix",
     "format": "prettier --write .",
     "test:unit": "jest",
     "build:production": "vue-tsc --noEmit && vite build --mode production",
@@ -56,10 +56,10 @@
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "./src/**/*.{vue,js,ts}": [
+    "./src/**/*.{vue,js,ts,tsx}": [
       "eslint --fix"
     ],
-    "./src/**/*.{scss,less,styl,html}": [
+    "./src/**/*.{vue,scss,less,styl}": [
       "stylelint --fix",
       "prettier --write"
     ]
