@@ -18,6 +18,9 @@ module.exports = {
     'plugin:jest/recommended',
   ],
   plugins: ['@typescript-eslint'],
+  rules: {
+    '@typescript-eslint/no-var-requires': 'off',
+  },
   settings: {
     'import/resolver': {
       alias: {

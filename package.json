@@ -8,6 +8,7 @@
     "lint:js": "eslint --cache \"./src/**/*.{vue,js,ts,tsx}\" --fix",
     "lint:css": "stylelint --cache --cache-location node_modules/.cache/stylelint/ \"./src/**/*.{vue,scss,sass,less,styl}\" --fix",
     "format": "prettier --write .",
+    "git:commit": "czg",
     "test:unit": "jest",
     "build:production": "vue-tsc --noEmit && vite build --mode production",
     "build:uat": "vue-tsc --noEmit && vite build --mode uat",
@@ -19,6 +20,8 @@
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
     "@types/jest": "^29.2.2",
     "@types/node": "^18.11.9",
     "@typescript-eslint/eslint-plugin": "^5.42.1",
@@ -26,6 +29,8 @@
     "@vitejs/plugin-vue": "^3.2.0",
     "@vue/test-utils": "^2.0.0-rc.18",
     "@vue/vue3-jest": "^29.2.0",
+    "cz-git": "^1.4.0",
+    "czg": "^1.4.0",
     "eslint": "^8.27.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-alias": "^1.1.2",
@@ -64,5 +69,10 @@
       "stylelint --fix",
       "prettier --write"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
   }
 }
