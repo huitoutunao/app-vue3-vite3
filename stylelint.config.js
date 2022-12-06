@@ -14,14 +14,4 @@ module.exports = {
     'color-hex-length': 'short',
   },
   ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts'],
-  // overrides: [
-  //   {
-  //     files: ['*.vue', '**/*.vue', '*.html', '**/*.html'],
-  //     customSyntax: 'postcss-html',
-  //   },
-  //   {
-  //     files: ['**/*.{scss,css,sass}'],
-  //     customSyntax: 'postcss-scss',
-  //   },
-  // ],
 }
