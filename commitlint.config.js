@@ -39,7 +39,17 @@ module.exports = {
     ],
   },
   prompt: {
-    alias: { fd: 'docs: fix typos' },
+    alias: {
+      fd: 'docs: fix typos',
+      ur: 'docs: update README',
+      uf: 'style: update code format',
+      bd: 'build: bump dependencies',
+      uc: 'chore: update config',
+    },
+    scopes: [
+      { value: 'app', name: 'app:       系统业务' },
+      { value: 'home', name: 'home:      首页相关' },
+    ],
     messages: {
       type: '选择你要提交的类型 :',
       scope: '选择一个提交范围（可选）:',
@@ -111,7 +121,7 @@ module.exports = {
     customScopesAlias: 'custom',
     emptyScopesAlias: 'empty',
     upperCaseSubject: false,
-    markBreakingChangeMode: false,
+    markBreakingChangeMode: true,
     allowBreakingChanges: ['feat', 'fix'],
     breaklineNumber: 100,
     breaklineChar: '|',
