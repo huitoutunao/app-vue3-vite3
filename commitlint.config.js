@@ -4,6 +4,16 @@
 // const fs = require('fs')
 // const path = require('path')
 // const packages = fs.readdirSync(path.resolve(__dirname, 'packages'))
+const { execSync } = require('child_process')
+
+// precomputed scope
+const scopeComplete = execSync('git status --porcelain || true')
+  .toString()
+  .trim()
+  .split('\n')
+  .find((r) => ~r.indexOf('M  src'))
+  ?.replace(/(\/)/g, '%%')
+  ?.match(/src%%((\w|-)*)/)?.[1]
 
 /** @type {import('cz-git').UserConfig} */
 module.exports = {
@@ -46,6 +56,8 @@ module.exports = {
       bd: 'build: bump dependencies',
       uc: 'chore: update config',
     },
+    defaultScope: scopeComplete,
+    customScopesAlign: !scopeComplete ? 'top-bottom' : 'bottom',
     scopes: [
       { value: 'app', name: 'app:       系统业务' },
       { value: 'home', name: 'home:      首页相关' },
