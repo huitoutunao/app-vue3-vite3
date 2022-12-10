@@ -12,7 +12,8 @@
     "test:unit": "jest",
     "build:production": "vue-tsc --noEmit && vite build --mode production",
     "build:uat": "vue-tsc --noEmit && vite build --mode uat",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "dependencies": {
     "pinia": "^2.0.23",
@@ -29,6 +30,7 @@
     "@vitejs/plugin-vue": "^3.2.0",
     "@vue/test-utils": "^2.0.0-rc.18",
     "@vue/vue3-jest": "^29.2.0",
+    "conventional-changelog-cli": "^2.2.2",
     "cz-git": "^1.4.0",
     "czg": "^1.4.0",
     "eslint": "^8.27.0",
