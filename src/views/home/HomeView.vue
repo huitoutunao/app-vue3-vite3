@@ -10,6 +10,7 @@ import { useCounterStore } from '@/store'
 
 const counter = useCounterStore()
 const { countValue } = storeToRefs(counter)
+console.log('hello world')
 </script>
 
 <style lang="scss" scoped>
