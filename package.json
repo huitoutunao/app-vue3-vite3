@@ -1,7 +1,7 @@
 {
   "name": "app-vue3-vite3",
   "private": true,
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "app vue3 start",
   "scripts": {
     "dev": "vite --host",

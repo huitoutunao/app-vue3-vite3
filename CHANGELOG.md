@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://huitoutunao/huitoutunao/app-vue3-vite3/compare/v0.1.3...v0.1.4) (2023-01-01)
+
+
+### Bug Fixes
+
+* :bug: 修复已知问题 ([ab724d5](https://huitoutunao/huitoutunao/app-vue3-vite3/commit/ab724d5812bc2aaeafac46becd8be82db4babd02))
+
 ### [0.1.3](https://huitoutunao/huitoutunao/app-vue3-vite3/compare/v0.1.2...v0.1.3) (2023-01-01)
 
 
