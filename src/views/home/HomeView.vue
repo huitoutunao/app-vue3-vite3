@@ -2,7 +2,7 @@
   <div class="page" @click="counter.increment()">
     {{ countValue }}
   </div>
-  <p>v0.1.3</p>
+  <p>v0.1.4</p>
 </template>
 
 <script setup lang="ts">
