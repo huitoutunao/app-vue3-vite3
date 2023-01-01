@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.1.5 (2023-01-01)
+
+
+### Features
+
+* :sparkles: 新增测试 ([99e1281](https://huitoutunao/huitoutunao/app-vue3-vite3/commit/99e12818c6c76f84ea1e7714969c8108f90d3a94))
+* :sparkles: 新增自动生成changelog ([0916ec6](https://huitoutunao/huitoutunao/app-vue3-vite3/commit/0916ec65260658e055e345552952849ac74322cf))
+* 更新环境变量和vite配置 ([55c0e30](https://huitoutunao/huitoutunao/app-vue3-vite3/commit/55c0e300d4aa16f36f50079cdae05b1c825012b0))
+* 更新jest ([4302862](https://huitoutunao/huitoutunao/app-vue3-vite3/commit/430286257836469fb09409e31f68858e5d521c3a))
+* 完善编辑器配置 ([d80a574](https://huitoutunao/huitoutunao/app-vue3-vite3/commit/d80a5745e616620f09fdb30fd4e9f0792be55132))
+* 完善stylelint ([90259da](https://huitoutunao/huitoutunao/app-vue3-vite3/commit/90259dabdd1f8e521282de5e1f29f0806ad781d1))
+* 新增环境变量 ([7a42ef3](https://huitoutunao/huitoutunao/app-vue3-vite3/commit/7a42ef38b3472931748964ddcc824e77d65a4bed))
+* 新增commitlint ([a9c1b78](https://huitoutunao/huitoutunao/app-vue3-vite3/commit/a9c1b783e7c91881763388ea06de668ecf28a1bc))
+* 新增eslint cache ([22a4cb4](https://huitoutunao/huitoutunao/app-vue3-vite3/commit/22a4cb4d5e0a15396f893b325fb344633538c594))
+* 新增pinia ([a02e74d](https://huitoutunao/huitoutunao/app-vue3-vite3/commit/a02e74daed4682f172b2715a51ad46df9a4df36c))
+* 新增pinia ([ae35709](https://huitoutunao/huitoutunao/app-vue3-vite3/commit/ae35709caf9077300e65e817a8168f0631f82601))
+* 新增pretty忽略规则 ([acb07f5](https://huitoutunao/huitoutunao/app-vue3-vite3/commit/acb07f5ad8733ff9930b0405fe40029e7457eed9))
+* 新增stylelint ([4269912](https://huitoutunao/huitoutunao/app-vue3-vite3/commit/4269912734dc9c26570290fe66613fa80626d88e))
+* 新增vue-router ([9a74dc3](https://huitoutunao/huitoutunao/app-vue3-vite3/commit/9a74dc3b7a733e5e8d47b3fe74c61a7370d1e851))
+* 优化stylelint ([81c1254](https://huitoutunao/huitoutunao/app-vue3-vite3/commit/81c1254e4139a934697d21eda62401160e67adc6))
+
+
+### Bug Fixes
+
+* :bug: 修复已知问题 ([ab724d5](https://huitoutunao/huitoutunao/app-vue3-vite3/commit/ab724d5812bc2aaeafac46becd8be82db4babd02))
+* 修复stylelint配置 ([1a6200a](https://huitoutunao/huitoutunao/app-vue3-vite3/commit/1a6200a98a9dab2739c2134b70ef1ac051a92e25))
+
 ### [0.1.4](https://huitoutunao/huitoutunao/app-vue3-vite3/compare/v0.1.3...v0.1.4) (2023-01-01)
 
 
