@@ -13,7 +13,8 @@
     "build:production": "vue-tsc --noEmit && vite build --mode production",
     "build:uat": "vue-tsc --noEmit && vite build --mode uat",
     "preview": "vite preview",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "release:patch": "standard-version -r patch -n"
   },
   "dependencies": {
     "pinia": "^2.0.23",
@@ -46,6 +47,7 @@
     "postcss-html": "^1.5.0",
     "prettier": "^2.7.1",
     "sass": "^1.56.1",
+    "standard-version": "^9.5.0",
     "stylelint": "^14.16.0",
     "stylelint-config-prettier": "^9.0.4",
     "stylelint-config-recess-order": "^3.0.0",
