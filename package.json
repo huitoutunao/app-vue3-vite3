@@ -13,12 +13,12 @@
     "build:production": "vue-tsc --noEmit && vite build --mode production",
     "build:uat": "vue-tsc --noEmit && vite build --mode uat",
     "preview": "vite preview --host",
-    "release:major": "standard-version -t stable@ -r major -n",
-    "release:minor": "standard-version -t stable@ -r minor -n",
-    "release:patch": "standard-version -t stable@ -r patch -n",
-    "prerelease:alpha": "standard-version -t alpha@ -p alpha -n",
-    "prerelease:beta": "standard-version -t beta@ -p beta -n",
-    "prerelease:uat": "standard-version -t uat@ -p uat -n"
+    "release:major": "standard-version -r major -n",
+    "release:minor": "standard-version -r minor -n",
+    "release:patch": "standard-version -r patch -n",
+    "prerelease:alpha": "standard-version -p alpha -n",
+    "prerelease:beta": "standard-version -p beta -n",
+    "prerelease:uat": "standard-version -p uat -n"
   },
   "dependencies": {
     "pinia": "^2.0.23",
