@@ -14,7 +14,7 @@
     "build:uat": "vue-tsc --noEmit && vite build --mode uat",
     "preview": "vite preview",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
-    "release:patch": "standard-version -r patch -n"
+    "release:patch": "standard-version -t stable@ -r patch -n"
   },
   "dependencies": {
     "pinia": "^2.0.23",
